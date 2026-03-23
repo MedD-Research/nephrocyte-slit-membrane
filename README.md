@@ -82,7 +82,7 @@ Download `056_v8.pth` and place it in the same folder as `02_unet_inference.ipyn
 
 ### Model details
 - Architecture: U-Net with encoder stages [64, 128, 256, 512], bottleneck 1024 channels, batch normalization, dropout 0.05
-- Training: 205 manually annotated confocal images (189 training / 16 test)
+- Training: 205 images (189 training / 16 test) derived from 21 manually annotated confocal images through offline augmentation
 - Output: 2-channel binary mask — channel 0: slit membrane, channel 1: protein clusters
 - Best checkpoint: epoch 71, test loss 0.274
 

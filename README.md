@@ -109,7 +109,7 @@ Download `056_v8.pth` and place it in the same folder as `02_unet_inference.ipyn
 ### Step 4 — Local Thickness (Fiji)
 1. Open `04_local_thickness.ijm` in Fiji
 2. Set `inputDir` and `outputDir` at the top of the script to your local paths
-3. Run the macro — processes all TIF files in the input folder
+3. Run the macro — processes the **membrane channel masks only** (not cluster masks)
 
 ### Step 5 — Extract thickness data (Python)
 1. Open `05_extract_thickness_data.ipynb`

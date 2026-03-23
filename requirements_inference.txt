@@ -1,0 +1,14 @@
+# Requirements for Step 2: U-Net inference (02_unet_inference.ipynb)
+# Python 3.10
+# Tested on Apple Silicon Mac (MPS backend) and CPU
+#
+# Install PyTorch first from https://pytorch.org/get-started/locally/
+# For Apple Silicon:  conda install pytorch==2.5.1 torchvision==0.20.1 -c pytorch
+# For CPU-only:       conda install pytorch==2.5.1 torchvision==0.20.1 cpuonly -c pytorch
+
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+tifffile==2021.11.2
+Pillow==9.4.0
+matplotlib==3.10.8
